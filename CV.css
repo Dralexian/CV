@@ -1,0 +1,94 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+    color: 
+}
+
+@font-face {
+    font-family: TitleFont;
+    src: url(MrsEavesSmallCaps.otf);
+}
+
+#Img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    color: white;
+    background:linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5466561624649859) 15%, rgba(0,0,0,0.804359243697479) 20%, rgba(0,0,0,1) 30%, rgba(0,0,0,1) 100%),url(D20WP.jpg);
+    background-repeat: no-repeat;
+    font-family: TitleFont;
+    font-size: 25px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: orange
+}
+
+#Sec1 {
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+#Logo {
+    width: 45px;
+    border-radius: 75%; 
+}
+
+.contact-flex {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.contact-flex p:first-child{
+    flex: 0 0 30%;
+}
+.contact-flex p:last-child{
+    flex: 0 0 60%;
+}
+
+#Intr {
+    text-align: center;
+    margin: 3%;
+}
+
+.contact {
+    text-align: left;
+    margin: 3%;
+}
+
+.social {
+    text-align: center
+}
+
+#prez {
+    background: black;
+    display: flex;
+    flex-flow: row wrap;
+    border: 10px outset orange;
+    border-radius: 30px;
+    margin:20px;
+    box-shadow: white 10px 10px 10px;
+}
+
+b {
+    text-decoration: underline;
+    text-decoration-color: orange
+}
+
+a {
+    color: orange;
+}

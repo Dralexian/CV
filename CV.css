@@ -1,11 +1,3 @@
-html{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-align: justify;
-    color: 
-}
-
 @font-face {
     font-family: TitleFont;
     src: url(MrsEavesSmallCaps.otf);
@@ -30,6 +22,8 @@ h1{
 }
 
 h2{
+    padding-top: 50px;
+    margin: auto;
     text-align: center;
     text-decoration: underline;
     text-decoration-color: orange
@@ -42,10 +36,15 @@ h2{
     margin: 20px;
 }
 
-
 #Logo {
     width: 45px;
     border-radius: 75%; 
+}
+
+.contact {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 .contact-flex {
@@ -60,35 +59,44 @@ h2{
     flex: 0 0 60%;
 }
 
-#Intr {
-    text-align: center;
-    margin: 3%;
-}
 
-.contact {
-    text-align: left;
-    margin: 3%;
-}
 
 .social {
     text-align: center
 }
 
 #prez {
-    background: black;
+    background: #685F53;
     display: flex;
     flex-flow: row wrap;
     border: 10px outset orange;
     border-radius: 30px;
     margin:20px;
     box-shadow: white 10px 10px 10px;
+    margin-bottom: 40px;
+}
+#prez1 {
+    background: #685F53;
+    display: flex;
+    flex-flow: column;
+    border: 10px outset orange;
+    border-radius: 30px;
+    margin:20px;
+    box-shadow: white 10px 10px 10px;
+    margin-bottom: 40px;
 }
 
 b {
     text-decoration: underline;
-    text-decoration-color: orange
+    text-decoration-color: orange;
+    text-align: center;
 }
 
 a {
     color: orange;
+}
+
+#Intr {
+    text-align: center;
+    margin: 3%;
 }

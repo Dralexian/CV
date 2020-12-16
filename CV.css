@@ -11,17 +11,20 @@
 
 body {
     color: white;
-    background:linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5466561624649859) 15%, rgba(0,0,0,0.804359243697479) 20%, rgba(0,0,0,1) 30%, rgba(0,0,0,1) 100%),url(D20WP.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5466561624649859) 15%, rgba(0, 0, 0, 0.804359243697479) 20%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 1) 100%), url(D20WP.jpg);
     background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
     font-family: TitleFont;
     font-size: 25px;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-h2{
+h2 {
     padding-top: 50px;
     margin: auto;
     text-align: center;
@@ -30,7 +33,7 @@ h2{
 }
 
 #Sec1 {
-    display:flex;
+    display: flex;
     flex-flow: column wrap;
     justify-content: center;
     margin: 20px;
@@ -38,7 +41,11 @@ h2{
 
 #Logo {
     width: 45px;
-    border-radius: 75%; 
+    border-radius: 75%;
+}
+
+p {
+    text-align: center;
 }
 
 .contact {
@@ -52,10 +59,12 @@ h2{
     flex-flow: row wrap;
     align-items: center;
 }
-.contact-flex p:first-child{
+
+.contact-flex p:first-child {
     flex: 0 0 30%;
 }
-.contact-flex p:last-child{
+
+.contact-flex p:last-child {
     flex: 0 0 60%;
 }
 
@@ -66,22 +75,26 @@ h2{
 }
 
 #prez {
+    position: relative;
     background: #685F53;
     display: flex;
     flex-flow: row wrap;
     border: 10px outset orange;
     border-radius: 30px;
-    margin:20px;
+    margin: 20px;
     box-shadow: white 10px 10px 10px;
     margin-bottom: 40px;
 }
+
 #prez1 {
+    position: relative;
+    padding: 3%;
     background: #685F53;
     display: flex;
     flex-flow: column;
     border: 10px outset orange;
     border-radius: 30px;
-    margin:20px;
+    margin: 20px;
     box-shadow: white 10px 10px 10px;
     margin-bottom: 40px;
 }
@@ -99,4 +112,43 @@ a {
 #Intr {
     text-align: center;
     margin: 3%;
+    padding-bottom: 20px;
+    border-bottom: 8px dashed orange;
+}
+
+#comp {
+    text-align: left;
+    display: flex;
+    flex-flow: column;
+}
+
+.bar {
+    background: orange;
+    border-radius: 25px
+}
+
+.barborder {
+    border: solid darkorange;
+    border-radius: 25px;
+}
+
+#corner {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    width: 10%;
+}
+
+#corner1 {
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+    width: 5%;
+}
+
+#corner2 {
+    position: absolute;
+    bottom: 1%;
+    right: 12%;
+    width: 5%;
 }

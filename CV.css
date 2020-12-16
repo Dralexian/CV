@@ -43,20 +43,18 @@ h2 {
     border-radius: 75%;
 }
 
-p {
-    text-align: center;
-}
 
 .contact {
-    margin: auto;
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 50px;
 }
 
 .contact-flex {
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
+    text-align: left;
 }
 
 .contact-flex p:first-child {
@@ -67,10 +65,8 @@ p {
     flex: 0 0 60%;
 }
 
-
-
 .social {
-    text-align: center
+    text-align: center;
 }
 
 #prez {
@@ -150,4 +146,8 @@ a {
     bottom: 1%;
     right: 12%;
     width: 5%;
+}
+
+#p2 {
+    text-align: center;
 }

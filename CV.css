@@ -3,6 +3,11 @@
     src: url(MrsEavesSmallCaps.otf);
 }
 
+@font-face {
+    font-family: TxtFont;
+    src: url(Bookmania SemiBold.otf)
+}
+
 #Img {
     display: block;
     margin-left: auto;
@@ -15,8 +20,13 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     background-size: auto auto;
-    font-family: TitleFont;
     font-size: 25px;
+}
+
+h1,
+h2,
+b {
+    font-family: TitleFont;
 }
 
 h1 {
@@ -97,11 +107,14 @@ h2 {
 b {
     text-decoration: underline;
     text-decoration-color: orange;
-    text-align: center;
 }
 
-a {
+a:link {
     color: orange;
+}
+
+a:visited {
+    color: darkorange;
 }
 
 #Intr {

@@ -15,98 +15,13 @@
 }
 
 body {
+    font-family: TxtFont;
     color: white;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5466561624649859) 15%, rgba(0, 0, 0, 0.804359243697479) 20%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 1) 100%), url(D20WP.jpg), black;
     background-repeat: no-repeat;
     background-position: top;
     background-size: auto auto;
-    font-size: 25px;
-}
-
-h1,
-h2,
-b {
-    font-family: TitleFont;
-}
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    padding-top: 50px;
-    margin: auto;
-    text-align: center;
-    text-decoration: underline;
-    text-decoration-color: orange
-}
-
-#Sec1 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    margin: 20px;
-}
-
-#Logo {
-    width: 45px;
-    border-radius: 75%;
-}
-
-
-.contact {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 50px;
-}
-
-.contact-flex {
-    display: flex;
-    flex-flow: row wrap;
-    text-align: left;
-}
-
-.contact-flex p:first-child {
-    flex: 0 0 30%;
-}
-
-.contact-flex p:last-child {
-    flex: 0 0 60%;
-}
-
-.social {
-    text-align: center;
-}
-
-#prez {
-    position: relative;
-    background: #685F53;
-    display: flex;
-    flex-flow: row wrap;
-    border: 10px outset orange;
-    border-radius: 30px;
-    margin: 20px;
-    box-shadow: white 10px 10px 10px;
-    margin-bottom: 40px;
-}
-
-#prez1 {
-    position: relative;
-    padding: 3%;
-    background: #685F53;
-    display: flex;
-    flex-flow: column;
-    border: 10px outset orange;
-    border-radius: 30px;
-    margin: 20px;
-    box-shadow: white 10px 10px 10px;
-    margin-bottom: 40px;
-}
-
-b {
-    text-decoration: underline;
-    text-decoration-color: orange;
+    font-size: 125%
 }
 
 a:link {
@@ -117,50 +32,73 @@ a:visited {
     color: darkorange;
 }
 
-#Intr {
+h1,
+h2,
+b {
+    font-family: TitleFont;
     text-align: center;
-    margin: 3%;
-    padding-bottom: 20px;
-    border-bottom: 8px dashed orange;
+    margin: auto;
 }
 
-#comp {
-    text-align: left;
-    display: flex;
-    flex-flow: column;
+b,
+h2 {
+    font-weight: bold;
+    text-decoration: underline orange;
 }
 
-.bar {
-    background: orange;
-    border-radius: 25px
+#Logo {
+    border-radius: 75%;
+    width: 45px;
 }
 
-.barborder {
-    border: solid darkorange;
-    border-radius: 25px;
+.icon {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.row {
+    position: relative;
+    margin: 5% 5% 5% 5%;
+    box-shadow: 10px 5px 5px white;
+    padding: 3%;
+    background-color: #99756D;
 }
 
 #corner {
     position: absolute;
-    bottom: 1%;
+    bottom: 2%;
     right: 1%;
     width: 10%;
 }
 
 #corner1 {
     position: absolute;
-    bottom: 2%;
-    right: 1%;
+    bottom: 5%;
+    right: 0.5%;
     width: 5%;
 }
 
 #corner2 {
     position: absolute;
-    bottom: 1%;
+    bottom: 2%;
     right: 12%;
     width: 5%;
 }
 
-#p2 {
-    text-align: center;
+.bar {
+    text-align: left;
+}
+
+.progress{
+    border: 1px solid orange;
+    border-radius: 25px;
+    background-color: black;
+    padding: 0;
+}
+.progress-bar{
+    background:orange;
+    border-radius: 25px;
 }
